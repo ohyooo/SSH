@@ -8,6 +8,10 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
+      git:
+        description: 'git url'
+        required: false
+        default: 'https://github.com/ohyooo/SSH'
 
 jobs:
   build:
